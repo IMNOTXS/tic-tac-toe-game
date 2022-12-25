@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+.board__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 600px;
+  margin-bottom: 24px;
+}
+
+.board__square {
+  border: 1px solid black;
+  background-color: white;
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.restart {
+  padding: 12px 24px;
+  font-size: 20px;
+  
+}
